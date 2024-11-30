@@ -38,13 +38,13 @@ Before you begin, make sure you have the following software installed on your co
 1. Clone the repository to your local machine using Git:
 
     ```bash
-    git clone https://github.com/yashwanthreddy1408/fake-product-identification.git
+    git clone https://github.com/yashwanthreddy1408/Fake_Product_Identification.git
     ```
 
 2. Navigate to the project's directory:
 
     ```bash
-    cd fake-product-identification
+    cd Fake_Product_Identification
     ```
 
 3. Set up your MySQL database and import the provided SQL file for product and order data.
