@@ -1,0 +1,75 @@
+.social-login {
+  display: flex;
+  gap: 12px; /* Adjust the gap as needed */
+  background-color: white; /* White background */
+  padding: 16px; /* Padding around the social login section */
+  border-radius: 8px; /* Rounded corners */
+  justify-content: space-around; /* Center-align and space buttons */
+}
+.google-btn,
+.facebook-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adjust the gap between icon and text */
+  padding: 10px; /* Add padding for better visual spacing */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  text-align: center; /* Center-align text */
+  background-color: white; /* White background */
+  border: 1px solid #ccc; /* Add border for better separation */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+.google-btn:hover,
+.facebook-btn:hover {
+  background-color: #f0f0f0; /* Lighter background on hover */
+}
+.google-btn img,
+.facebook-btn img {
+  width: 24px; /* Adjust the logo size */
+  height: 24px;
+  object-fit: contain;
+}
+.google-btn span,
+.facebook-btn span {
+  font-size: 14px; /* Adjust the text size */
+  color: #333; /* Text color */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+}
+/* Adjusted max-width for the form container */
+.form-container {
+  max-width: 512px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center align the form */
+}
+
+/* Adjustments for date input */
+input[type="date"] {
+  /* Remove default arrow in Chrome, Safari */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /* Custom icon position */
+  padding-right: 2.5rem; /* Adjust based on icon size */
+}
+
+/* Icon styling */
+input[type="date"] + span svg {
+  /* Adjust icon color */
+  fill: currentColor; /* Inherits parent text color */
+  /* Adjust icon position */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.75rem; /* Adjust distance from the right edge */
+  pointer-events: none;
+}
+
+/* Dark mode adjustments */
+.dark input[type="date"] {
+  background-color: #4a5568; /* Example dark background color */
+  border-color: #2d3748; /* Example dark border color */
+  color: #cbd5e0; /* Example dark text color */
+}
+
+.dark input[type="date"] + span svg {
+  fill: #cbd5e0; /* Example dark icon color */
+}

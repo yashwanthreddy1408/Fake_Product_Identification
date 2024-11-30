@@ -1,0 +1,170 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #343a40; /* Dark gray background for sidebar */
+    color: #ffffff; /* White text color */
+    width: 250px; /* Fixed width for sidebar */
+    height: 100vh; /* Full height sidebar */
+    position: fixed; /* Fixed position */
+    padding-top: 20px; /* Top padding for sidebar */
+}
+
+.sidebar a {
+    color: #ffffff; /* White text for links */
+    padding: 15px 20px; /* Padding for links */
+    display: block; /* Block display for links */
+    text-decoration: none; /* No underline */
+    margin: 10px 0; /* Margin between links for spacing */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.sidebar a:hover {
+    background-color: #495057; /* Darker gray on hover */
+}
+
+.sidebar a.active {
+    background-color: #007bff; /* Blue for active link */
+    color: #ffffff !important; /* White text for active link */
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px; /* Padding for header */
+    margin-left: 400px; /* Margin to prevent overlap with sidebar */
+}
+
+/* Content */
+.content {
+    margin-left: 250px; /* Margin to allow space for the sidebar */
+    padding: 20px; /* Padding for content area */
+}
+
+/* Cards */
+.card {
+    border-radius: 0.5rem; /* Rounded corners for cards */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    margin-bottom: 20px; /* Spacing between cards */
+    background-color: #ffffff; /* White background for cards */
+}
+
+.card-header {
+    background-color: #007bff; /* Blue for card headers */
+    color: #ffffff; /* White text for card headers */
+}
+
+/* Card Body */
+.card-body {
+    padding: 1.5rem; /* Increased padding for card body */
+}
+
+/* Table */
+.table {
+    background-color: #ffffff; /* White background for table */
+    border-radius: 0.5rem; /* Rounded corners for table */
+    overflow: hidden; /* Hides overflow for rounded corners */
+}
+
+.table thead th {
+    background-color: #007bff; /* Blue for table headers */
+    color: #ffffff; /* White text for table headers */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Light gray for odd rows */
+}
+
+/* Footer */
+footer {
+    padding: 20px; /* Padding for footer */
+    text-align: center; /* Centered text in footer */
+    background-color:#ffffff; /* Dark background for footer */
+    color: black;
+}
+.list-group-item {
+    background-color: #f8f9fa;
+}
+
+.list-group-item:hover {
+    background-color: #e2e6ea; /* Add a hover effect */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #28a745; /* Green for primary buttons */
+    border-color: #28a745; /* Border color matching button */
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Adjusting link colors for better visibility */
+h1, h5 {
+    color: #343a40; /* Dark gray for headers */
+}
+
+.card-title {
+    font-weight: bold; /* Bold title text */
+}
+
+/* List Group Items */
+.list-group-item {
+    border: none; /* Remove border from list items */
+    padding: 10px; /* Padding for list items */
+    background-color: #f8f9fa; /* Light background for list items */
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+/* Smooth transition for hover effects */
+.nav-link, .nav-link:hover {
+    transition: background-color 0.3s ease;
+}
+
+.row {
+    margin: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    padding: 1rem;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e7f1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.list-group-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
